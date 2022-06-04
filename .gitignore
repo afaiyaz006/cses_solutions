@@ -1,2 +1,5 @@
 .vscode/
 .code_workspace
+input.txt
+_pycache_/
+op.txt
