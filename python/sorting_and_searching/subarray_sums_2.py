@@ -4,7 +4,7 @@ if __name__=='__main__':
     s=[0]
     d=dict()
     
-    co=0
+    co=0 #counter
     
     already=dict()
     already[str(0)]=0
