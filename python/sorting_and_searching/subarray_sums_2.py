@@ -22,13 +22,17 @@ if __name__=='__main__':
 
     #print(d.items())
     for i in range(1,len(s)):
+        print(d)
+        print(already)
         key=str(int(s[i-1]+k))
+        
         if key in d:
             if key in already:
                 needed=d[key]-already[key]
                 if needed>0:
                     co+=needed
             else:
+                
                 co+=d[key]
         if str(s[i]) in already:
             already[str(s[i])]+=1
